@@ -1,2 +1,2 @@
 # APP_Genogram
-#ESTA ES LA RAMA PRINCIPAL 
+#Esta es la rama principal del proyecto GENOGRAMA. 
