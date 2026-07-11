@@ -47,7 +47,7 @@ static const String personCondition = '''
   )
 ''';
 
-//Romantic relationships 
+//Romantic couples 
 static const String couple = '''
   CREATE TABLE Couple (
     id INTEGER PRIMARY KEY AUTOINCREMENT,

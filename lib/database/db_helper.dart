@@ -26,7 +26,7 @@ class DbHelper {
         final path = join(dbPath, filePath);
 
         //Open the file, and creates it if it's not yet 
-        return await openDatabase(path, version: 1, onCreate: _createDB, onConfigure: _onConfigure);
+        return await openDatabase(path, version: 2, onCreate: _createDB, onConfigure: _onConfigure);
     }
     
     //Esta función obliga a SQLite a respetar los "FOREIGN KEY" y el "ON DELETE CASCADE"
